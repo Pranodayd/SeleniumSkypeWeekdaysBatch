@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: libs/selenium-java-3.141.59.jar libs/selenium-api-3.141.59
+ .jar libs/selenium-chrome-driver-3.141.59.jar libs/selenium-edge-driv
+ er-3.141.59.jar libs/selenium-firefox-driver-3.141.59.jar libs/seleni
+ um-ie-driver-3.141.59.jar libs/selenium-opera-driver-3.141.59.jar lib
+ s/selenium-remote-driver-3.141.59.jar libs/selenium-safari-driver-3.1
+ 41.59.jar libs/selenium-support-3.141.59.jar libs/byte-buddy-1.8.15.j
+ ar libs/commons-exec-1.3.jar libs/guava-25.0-jre.jar libs/jsr305-1.3.
+ 9.jar libs/checker-compat-qual-2.0.0.jar libs/error_prone_annotations
+ -2.1.3.jar libs/j2objc-annotations-1.1.jar libs/animal-sniffer-annota
+ tions-1.14.jar libs/okhttp-3.11.0.jar libs/okio-1.14.0.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.4.0
+
