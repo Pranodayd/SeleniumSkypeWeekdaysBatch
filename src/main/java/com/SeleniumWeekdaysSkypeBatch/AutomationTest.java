@@ -13,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import com.SeleniumWeekdaysSkypeBatch.Utilities.Utils;
 
@@ -132,5 +133,14 @@ public class AutomationTest
 	public void OpenComboBoxAndSelectValue(WebElement E,String ElementSelectStratergy,String ElementValue)
 	{
 		
+		Select Se=new Select(E);
+		switch(ElementSelectStratergy)
+		{
+		
+			case "BY_VISIBLETEXT":
+				Se.selectByVisibleText(ElementValue);
+				break;
+				
+		}
 	}
 }
