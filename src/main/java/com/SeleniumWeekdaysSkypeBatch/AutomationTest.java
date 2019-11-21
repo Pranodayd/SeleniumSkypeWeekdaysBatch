@@ -145,6 +145,7 @@ public class AutomationTest
 				Se.deselectByValue(ElementValue);
 				break;
 	
+			case "BY_INDEX":	
 		}
 	}
 }
