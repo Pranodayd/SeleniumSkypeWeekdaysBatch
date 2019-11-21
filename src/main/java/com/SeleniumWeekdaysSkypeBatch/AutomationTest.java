@@ -141,6 +141,10 @@ public class AutomationTest
 				Se.selectByVisibleText(ElementValue);
 				break;
 				
+			case "BY_VALUE":
+				Se.deselectByValue(ElementValue);
+				break;
+	
 		}
 	}
 }
